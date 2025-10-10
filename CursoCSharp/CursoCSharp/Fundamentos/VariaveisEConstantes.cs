@@ -50,16 +50,16 @@ namespace CursoCSharp.Fundamentos
             Console.WriteLine("Preço do computador: " + precoComputador);
 
             double valorDeMercadoDaApple = 1000000000000000.00; // Mais usados dos reais
-            Console.WriteLine("Valor de mercado da Apple " + valorDeMercadoDaApple);
+            Console.WriteLine("Valor de mercado da Apple: " + valorDeMercadoDaApple);
 
             decimal valorEntreEstrelas = decimal.MaxValue;
-            Console.WriteLine("Valor entre duas estrelas " + valorEntreEstrelas);
+            Console.WriteLine("Valor entre duas estrelas: " + valorEntreEstrelas);
 
             char letra = 'b';
-            Console.WriteLine("Uma única letra " + letra);
+            Console.WriteLine("Uma única letra: " + letra);
 
             string texto = "Teste de string";
-            Console.WriteLine("Utilização de string " + texto);
+            Console.WriteLine("Utilização de string: " + texto);
 
         }
     }
