@@ -18,7 +18,7 @@ namespace CursoCSharp.Fundamentos
             Console.WriteLine("O " + nome + " da marca " + marca + " custa " + preco);
             Console.WriteLine("O {0} da marca {1} custa {2}", nome, marca, preco);
             Console.WriteLine($"A marca {marca} é boa");
-            Console.WriteLine($"1 + 1 = {1+1} é boa");
+            Console.WriteLine($"1 + 1 = {1 + 1}");
         }
     }
 }
