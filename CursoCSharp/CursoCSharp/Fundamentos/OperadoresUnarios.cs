@@ -25,7 +25,7 @@ namespace CursoCSharp.Fundamentos
             Console.WriteLine(numero1);
 
             Console.WriteLine(numero1++ == --numero2);
-            Console.WriteLine($" {numero1} {numero2}");
+            Console.WriteLine($"{numero1} {numero2}");
         }
     }
 }
