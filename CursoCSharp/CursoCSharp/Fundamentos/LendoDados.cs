@@ -19,6 +19,7 @@ namespace CursoCSharp.Fundamentos
             int idade = int.Parse(Console.ReadLine());
 
             Console.WriteLine("Qual o seu sálario");
+            // Colocando o , para centavos com CultureInfo
             double salario = double.Parse(Console.ReadLine(), CultureInfo.InvariantCulture);
 
             Console.WriteLine($"{nome} {idade} R${salario}");
