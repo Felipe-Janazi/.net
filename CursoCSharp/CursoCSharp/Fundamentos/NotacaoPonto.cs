@@ -18,6 +18,7 @@ namespace CursoCSharp.Fundamentos
             Console.WriteLine("Teste".Length);
 
             string valorImportante = null;
+            // Caso seja um valor nulo ele não gera erro
             Console.WriteLine(valorImportante?.Length) ;
         }
     }
