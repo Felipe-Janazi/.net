@@ -28,6 +28,7 @@ namespace CursoCSharp.Fundamentos
             Console.WriteLine(valor.ToString("C0", cultura));
 
             int inteiro = 256;
+            // Completando números até uma certa quantidade de caracteres
             Console.WriteLine(inteiro.ToString("D10"));
         }
     }
