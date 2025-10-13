@@ -20,7 +20,7 @@ namespace CursoCSharp.Fundamentos
             // Cortando os decimais e convertendo, pois há perda de informação nma conversão
             Console.WriteLine(notaTruncada);
 
-            Console.WriteLine("Digite sua idade");
+            Console.Write("Digite sua idade: ");
             string idadeString = Console.ReadLine();
             int idadeInteiro = int.Parse(idadeString);
             Console.WriteLine(idadeInteiro);
@@ -28,13 +28,13 @@ namespace CursoCSharp.Fundamentos
             idadeInteiro = Convert.ToInt32(idadeString);
             Console.WriteLine($"Idade = {idadeInteiro}");
 
-            Console.Write("Digite um número");
+            Console.Write("Digite um número: ");
             string palavra = Console.ReadLine();
             // Tentando enviar o que tem na variável palavra para dentro do número
             int.TryParse(palavra, out int numero1);
             Console.WriteLine(numero1);
 
-            Console.Write("Digite um número");
+            Console.Write("Digite um número: ");
             int.TryParse(Console.ReadLine(), out int numero2);
             Console.WriteLine(numero2);
         }
