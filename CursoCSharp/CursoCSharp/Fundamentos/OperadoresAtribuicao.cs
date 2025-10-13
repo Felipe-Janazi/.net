@@ -27,6 +27,7 @@ namespace CursoCSharp.Fundamentos
 
             dynamic c = new System.Dynamic.ExpandoObject();
             c.nome = "João";
+
             dynamic d = c;
             d.nome = "Maria";
             Console.WriteLine(c);
