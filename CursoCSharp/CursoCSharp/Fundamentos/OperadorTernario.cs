@@ -5,7 +5,7 @@ using System.Text;
 using System.Threading.Tasks;
 
 namespace CursoCSharp.Fundamentos
-{
+{ 
     internal class OperadorTernario
     {
         public static void Executar()
