@@ -20,7 +20,7 @@ namespace CursoCSharp.EstruturaDeControle
             bool bomComportamento = entrada == "S";
 
 
-            if (nota >= 9.0 && bomComportamento)
+            if (nota >= 9.0 && bomComportamento) 
             {
                 Console.WriteLine("Quadro de honra!");
             }
