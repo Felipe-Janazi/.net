@@ -15,7 +15,8 @@ namespace CursoCSharp.EstruturaDeControle
             if (nota >= 7.0)
             {
                 Console.WriteLine("Aprovado!");
-            } else
+            }
+            else
             {
                 Console.WriteLine("Recuperação!");
             }
