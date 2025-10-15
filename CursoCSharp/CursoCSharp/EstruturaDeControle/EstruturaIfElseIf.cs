@@ -23,6 +23,9 @@
             {
                 Console.WriteLine("Te vejo na próxima!");
             }
+
+            Console.WriteLine("Fim");
+
         }
     }
 }
