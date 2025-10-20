@@ -14,6 +14,7 @@ namespace CursoCSharp.ClassesEMetodos
 
         public Carro(string modelo, string fabricante, int ano)
         {
+         // this.Modelo = Modelo;
             Modelo = modelo;
             Fabricante = fabricante;
             Ano = ano;
