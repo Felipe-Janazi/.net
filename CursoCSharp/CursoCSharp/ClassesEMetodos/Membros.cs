@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace CursoCSharp.ClassesEMetodos
 {
-    internal class Membros
+    internal class Membros  
     {
         public static void Executar()
         {
