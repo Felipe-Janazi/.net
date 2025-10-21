@@ -40,6 +40,7 @@ namespace CursoCSharp.ClassesEMetodos
                 Preco = 5.3
             };
 
+            // Mudando todos os descontos pra 50%
             Produto.Desconto = 0.5;
             Console.WriteLine("Preço com desconto: {0}", produto1.CalcularDesconto());
             Console.WriteLine("Preço com desconto: {0}", produto2.CalcularDesconto());
@@ -48,6 +49,8 @@ namespace CursoCSharp.ClassesEMetodos
             Produto.Desconto = 0.1;
             Console.WriteLine("Preço com desconto: {0}", produto1.CalcularDesconto());
             Console.WriteLine("Preço com desconto: {0}", produto2.CalcularDesconto());
+
+            // Dessa forma o desconto deixa de ser da instância e passa a ser da classe
         }
     }
 }
