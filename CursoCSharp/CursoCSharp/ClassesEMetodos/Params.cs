@@ -8,6 +8,7 @@ namespace CursoCSharp.ClassesEMetodos
 {
     internal class Params
     {
+        // Utilizando o PARAMS podemos passar parâmetros variáveis, sendo 2, 4, 10 e etc
         public static void Recepcionar(params string[] pessoas) { 
             foreach (var pessoa in pessoas)
             {
