@@ -12,6 +12,8 @@ namespace CursoCSharp.ClassesEMetodos
         int a = 10;
         public static void Executar()
         {
+            // Desafio: Acessr a variável A sem mexer diretamente na linha de criação dela:
+
             var desafioAtributo = new DesafioAtributo();
             Console.WriteLine(desafioAtributo.a);
         }
