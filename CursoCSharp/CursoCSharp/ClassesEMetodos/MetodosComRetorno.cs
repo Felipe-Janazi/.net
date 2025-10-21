@@ -72,7 +72,10 @@ namespace CursoCSharp.ClassesEMetodos
 
 
             var calculadoraCadeia = new CalculadoraCadeia();
+            // Pode fazer isso por que retorna o próprio objeto na chamada, podendo adicionar mais chamadas
             calculadoraCadeia.Somar(3).Multiplicar(3).Imprimir().Limpar().Imprimir();
+            // Caso o último fosse .Resutaldo viria um int, tendo métodos somente para int, 
+            // Já o calculadoraCadeia devolve ele mesmo, onde ele possui mais métodos dentro dele
         }
     }
 }
