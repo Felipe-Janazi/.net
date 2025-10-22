@@ -17,6 +17,8 @@ namespace CursoCSharp.ClassesEMetodos
             Console.WriteLine(Somar(10, 23));
             Console.WriteLine(Somar(23));
             Console.WriteLine(Somar(12));
+            Console.WriteLine(Somar());
+            Console.WriteLine(Somar(b: 7));
 
         }
     }
