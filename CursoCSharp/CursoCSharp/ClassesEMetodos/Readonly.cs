@@ -11,7 +11,9 @@ namespace CursoCSharp.ClassesEMetodos
     {
 
         public string Nome;
-        DateTime Nascimento;
+        // Valor imutavel, podendo mudar somente na inicialização ou no construtor
+        // Uma const na inicialização do programa precisa ter um valor
+        readonly DateTime Nascimento;
 
         public Cliente(string nome, DateTime nascimento)
         {
