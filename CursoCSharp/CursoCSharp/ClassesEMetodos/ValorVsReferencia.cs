@@ -7,7 +7,7 @@ using System.Threading.Tasks;
 namespace CursoCSharp.ClassesEMetodos
 {
 
-    public struct Dependente
+    public class Dependente
     {
         public string Nome;
         public int Idade;
