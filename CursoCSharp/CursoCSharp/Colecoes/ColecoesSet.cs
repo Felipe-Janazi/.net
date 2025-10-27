@@ -13,23 +13,25 @@ namespace CursoCSharp.Colecoes
         {
             var livro = new Produto("Game of Thrones", 49.9);
 
-            var carrinho = new List<Produto>();
+            // Estrutura não indexada, não permitindo repetições de itens e não tendo alterações por id
+            var carrinho = new HashSet<Produto>();
             carrinho.Add(livro);
 
-            var combo = new List<Produto>
+            var combo = new HashSet<Produto>
             {
                 new Produto ("Camisa", 29.9),
                 new Produto ("Nova temporada", 99.9),
                 new Produto ("Poster", 10.0)
             };
 
-            carrinho.AddRange(combo);
+            // Adicionando outra lista
+            carrinho.UnionWith(combo);
             Console.WriteLine(carrinho.Count);
-            carrinho.RemoveAt(3);
+            //carrinho.RemoveAt(3);
 
-            foreach(var item in carrinho)
+            foreach (var item in carrinho)
             {
-                Console.Write(carrinho.IndexOf(item ));
+                //Console.Write(carrinho.IndexOf(item));
                 Console.WriteLine($"- {item.Nome} {item.Preco}");
             }
 
