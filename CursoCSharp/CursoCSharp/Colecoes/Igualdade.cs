@@ -19,7 +19,8 @@ namespace CursoCSharp.Colecoes
             // Verdadeiro, apontando pra mesma referência de memória
             Console.WriteLine(p3 == p2);
 
-            // Equals também compara endereço de memória 
+            // Equals também compara endereço de memória, mas adicionano uma comparação no Produto
+            // Podemos analisar diretamente os valores e assim receber true
             Console.WriteLine(p1.Equals(p2));
         }
     }
