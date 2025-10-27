@@ -19,21 +19,21 @@ namespace CursoCSharp.Colecoes
 
             foreach (var item in pilha)
             {
-                Console.Write($"{item} - ");
+                Console.Write($"{item} ");
             }
 
             Console.WriteLine($"\nPop: {pilha.Pop()}");
 
             foreach (var item in pilha)
             {
-                Console.Write($"{item} - ");
+                Console.Write($"{item} ");
             }
 
             Console.WriteLine($"\nPeek: {pilha.Peek()}");
 
             foreach (var item in pilha)
             {
-                Console.Write($"{item} - ");
+                Console.Write($"{item} ");
             }
 
         }
