@@ -64,6 +64,7 @@ namespace CursoCSharp {
                 {"ArrayList - Classes e Métodos", ColecoesArrayList.Executar },
                 {"Set - Classes e Métodos", ColecoesSet.Executar },
                 {"Queue - Classes e Métodos", ColecoesQueue.Executar },
+                {"Igualdade - Classes e Métodos", Igualdade.Executar },
             });
 
             central.SelecionarEExecutar();
