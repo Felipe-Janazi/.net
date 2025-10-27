@@ -60,6 +60,7 @@ namespace CursoCSharp {
 
                 // Coleções
                 {"Array - Classes e Métodos", UsandoArray.Executar },
+                {"List - Classes e Métodos", ColecoesList.Executar },
             });
 
             central.SelecionarEExecutar();

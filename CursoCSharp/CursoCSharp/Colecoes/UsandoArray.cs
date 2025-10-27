@@ -30,12 +30,18 @@ namespace CursoCSharp.Colecoes
                 somatorio += nota;
             }
 
+            //for (int i = 0; i < notas.Length; i++)
+            //{
+            //    somatorio += notas[i];
+            //}
+
             double media = somatorio / notas.Length;
             Console.WriteLine(media);
 
-            char[] letras = { 'a', 'r', 'r', 'a', 'y' };
+            char[] letras = { 'A', 'r', 'r', 'a', 'y' };
             string palavra = new string(letras);
             Console.WriteLine(palavra);
+
 
         }
     }
