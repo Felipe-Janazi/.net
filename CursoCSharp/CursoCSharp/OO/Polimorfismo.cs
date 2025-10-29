@@ -20,6 +20,7 @@ namespace CursoCSharp.OO
 
     public class Feijao : Comida
     {
+        public Feijao(double peso) : base(peso) { }
     }
     public class Arroz : Comida
     {
@@ -31,11 +32,11 @@ namespace CursoCSharp.OO
 
     public class Pessoa
     {
-        public double peso;
+        public double Peso;
 
         public void Comer(Comida comida)
         {
-            peso += comida.Peso;
+            Peso += comida.Peso;
         }
     }
 
@@ -44,8 +45,7 @@ namespace CursoCSharp.OO
     {
         public static void Executar()
         {
-            Feijao ingrediente1 = new Feijao();
-            ingrediente1.Peso = 0.3;
+            Feijao ingrediente1 = new Feijao(0.3);
 
             Arroz ingrediente2 = new Arroz();
             ingrediente2.Peso = 0.25;
@@ -54,12 +54,12 @@ namespace CursoCSharp.OO
             ingrediente3.Peso = 0.3;
 
             Pessoa cliente = new Pessoa();
-            cliente.peso = 80.2;
+            cliente.Peso = 80.2;
             cliente.Comer(ingrediente1);
             cliente.Comer(ingrediente2);
             cliente.Comer(ingrediente3);
 
-            Console.WriteLine($"Agora o peso do cliente é {cliente.peso}");
+            Console.WriteLine($"Agora o peso do cliente é {cliente.Peso}Kg");
 
         }
     }
