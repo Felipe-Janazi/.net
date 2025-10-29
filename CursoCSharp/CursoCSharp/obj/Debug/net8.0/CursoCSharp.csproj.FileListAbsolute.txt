@@ -13,3 +13,7 @@ C:\Users\Janazi\OneDrive - SPTech School\Github\.net\CursoCSharp\CursoCSharp\obj
 C:\Users\Janazi\OneDrive - SPTech School\Github\.net\CursoCSharp\CursoCSharp\obj\Debug\net8.0\CursoCSharp.pdb
 C:\Users\Janazi\OneDrive - SPTech School\Github\.net\CursoCSharp\CursoCSharp\obj\Debug\net8.0\CursoCSharp.genruntimeconfig.cache
 C:\Users\Janazi\OneDrive - SPTech School\Github\.net\CursoCSharp\CursoCSharp\obj\Debug\net8.0\ref\CursoCSharp.dll
+C:\Users\Janazi\OneDrive - SPTech School\Github\.net\CursoCSharp\CursoCSharp\bin\Debug\net8.0\Encapsulamento.dll
+C:\Users\Janazi\OneDrive - SPTech School\Github\.net\CursoCSharp\CursoCSharp\bin\Debug\net8.0\Encapsulamento.pdb
+C:\Users\Janazi\OneDrive - SPTech School\Github\.net\CursoCSharp\CursoCSharp\obj\Debug\net8.0\CursoCSharp.csproj.AssemblyReference.cache
+C:\Users\Janazi\OneDrive - SPTech School\Github\.net\CursoCSharp\CursoCSharp\obj\Debug\net8.0\CursoCSh.88BC1E5B.Up2Date

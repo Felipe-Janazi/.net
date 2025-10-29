@@ -96,8 +96,10 @@ namespace CursoCSharp.OO
 
             Console.WriteLine("Ferrari com o tipo Carro...");
             Carro carro3 = new Ferrari(); // Polimorfismo
+            // Mesmo o tipo sendo Carro o método acelerar foi sobrescrito
             Console.WriteLine(carro3.Acelerar());
             Console.WriteLine(carro3.Acelerar());
+            // Como o tipo é Carro ele chama o método ocultado que está dentro de Carro e não Ferrari
             Console.WriteLine(carro3.Frear());
             Console.WriteLine(carro3.Frear());
 

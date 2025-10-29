@@ -7,14 +7,30 @@
   "targets": {
     ".NETCoreApp,Version=v8.0": {
       "CursoCSharp/1.0.0": {
+        "dependencies": {
+          "Encapsulamento": "1.0.0"
+        },
         "runtime": {
           "CursoCSharp.dll": {}
+        }
+      },
+      "Encapsulamento/1.0.0": {
+        "runtime": {
+          "Encapsulamento.dll": {
+            "assemblyVersion": "1.0.0.0",
+            "fileVersion": "1.0.0.0"
+          }
         }
       }
     }
   },
   "libraries": {
     "CursoCSharp/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "Encapsulamento/1.0.0": {
       "type": "project",
       "serviceable": false,
       "sha512": ""
