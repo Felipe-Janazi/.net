@@ -6,19 +6,31 @@ using System.Threading.Tasks;
 
 namespace CursoCSharp.OO
 {
-    interface OperacaoBinaria
+    // Métodos que não podem ter corpo, onde uma classe pode implementar várias interfaces
+    interface Teste
+    {
+        bool bla(string a);
+    }
+
+    // Uma interface também pode herdar outras interfaces
+    interface OperacaoBinaria // : Teste
     {
         // Todos os métodos de uma interface são abstratos e públicos
         int Operacao(int a, int b);
 
     }
 
-    class Soma : OperacaoBinaria
+    class Soma : OperacaoBinaria, Teste 
     {
         // Obrigatoriamente publico
         public int Operacao(int a, int b)
         {
             return a + b;
+        }
+
+        public bool bla(string teste)
+        {
+            return true;
         }
     }
 
@@ -49,7 +61,7 @@ namespace CursoCSharp.OO
 
         public string ExecutarOperacoes(int a, int b)
         {
-            string resultado = " ";
+            string resultado = "";
 
             foreach(var op in operacoes)
             {
