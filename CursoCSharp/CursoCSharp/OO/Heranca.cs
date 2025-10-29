@@ -38,7 +38,8 @@ namespace CursoCSharp.OO
 
         }
 
-        public int Acelerar()
+        // Com o virtual estamos permitindo que seja sobreescrito por classes filhas
+        public virtual int Acelerar()
         {
             return AlterarVelocidade(5);
         }
@@ -59,6 +60,18 @@ namespace CursoCSharp.OO
     public class Ferrari : Carro
     {
         public Ferrari() : base(350) { }
+
+        // Sobrescrevendo um método da classe pai 
+        public override int Acelerar()
+        {
+            return AlterarVelocidade(15);
+        }
+
+        // Dessa forma podemos ocultar o Frear() da classe pai e utilizar a nova
+        public new int Frear()
+        {
+            return AlterarVelocidade(-15);
+        }
     }
 
     internal class Heranca
@@ -80,6 +93,19 @@ namespace CursoCSharp.OO
             Console.WriteLine(carro2.Acelerar());
             Console.WriteLine(carro2.Frear());
             Console.WriteLine(carro2.Frear());
+
+            Console.WriteLine("Ferrari com o tipo Carro...");
+            Carro carro3 = new Ferrari(); // Polimorfismo
+            Console.WriteLine(carro3.Acelerar());
+            Console.WriteLine(carro3.Acelerar());
+            Console.WriteLine(carro3.Frear());
+            Console.WriteLine(carro3.Frear());
+
+            carro3 = new Uno();
+            Console.WriteLine(carro3.Acelerar());
+            Console.WriteLine(carro3.Acelerar());
+            Console.WriteLine(carro3.Frear());
+            Console.WriteLine(carro3.Frear());
         }
     }
 }
