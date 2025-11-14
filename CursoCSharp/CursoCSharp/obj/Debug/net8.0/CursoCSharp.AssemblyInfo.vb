@@ -16,7 +16,7 @@ Imports System.Reflection
 <Assembly: System.Reflection.AssemblyCompanyAttribute("CursoCSharp"),  _
  Assembly: System.Reflection.AssemblyConfigurationAttribute("Debug"),  _
  Assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0"),  _
- Assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+0e40f68bc8cada0c385dc5277b72f11f736011fc"),  _
+ Assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+151465235a3a20256fca5dcc558600f204d3f26b"),  _
  Assembly: System.Reflection.AssemblyProductAttribute("CursoCSharp"),  _
  Assembly: System.Reflection.AssemblyTitleAttribute("CursoCSharp"),  _
  Assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")> 
