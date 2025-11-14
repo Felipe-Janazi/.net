@@ -27,9 +27,7 @@ namespace CursoCSharp.MetodosEFuncoes
 
             Console.WriteLine(jogarDado());
 
-
             // Em uma func o último tipo passado se refere ao retorno da mesma
-
 
             Func<int, string> conversorHex = (numero) => numero.ToString("X");
             Console.WriteLine(conversorHex(1234));
